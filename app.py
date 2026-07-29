@@ -10,7 +10,7 @@ CORS(app)
 
 
 
-MONGO_URI = os.environ.get("mongodb+srv://nandud7967_db_user:77066Nandu@cluster0.tnadqgz.mongodb.net/?appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI")
 
 client = MongoClient(MONGO_URI)
 
